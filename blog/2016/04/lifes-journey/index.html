@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+	<meta content="text/html; charset=utf-8">
+    <title>Life&#39;s Journey</title>
+	<meta name="author" content="Jean-Ray Arseneau">
+
+	<!-- http://t.co/dKP3o1e -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+
+    <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in risus sit amet quam blandit vulputate. In hac habitasse platea dictumst. Sed ipsum justo,...">
+
+    <link rel="stylesheet" href="/assets/css/screen.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="canonical" href="http://arseneau.ca/blog/2016/04/lifes-journey/">
+    <link rel="alternate" type="application/rss+xml" title="Arseneau.ca" href="http://arseneau.ca/index.xml">
+
+	<link rel="icon" href="/assets/img/favicon.png">
+
+	<!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+	<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+	<!-- For first- and second-generation iPad: -->
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/apple-touch-icon-72x72.png">
+	<!-- For iPhone with high-resolution Retina display: -->
+	<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/apple-touch-icon-114x114.png">
+	<!-- For iPad with high-resolution Retina display: -->
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/apple-touch-icon-144x144.png">
+	<!-- Define home screen icon for iOS devices -->
+	<meta name="apple-mobile-web-app-title" content="Arseneau.ca">
+
+	<link href='https://fonts.googleapis.com/css?family=Lato:700,400,300' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//stats.theint.net/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//stats.theint.net/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+	<!-- width=device-width causes the iPhone 5 to letterbox the app, so	we want to exclude it for iPhone 5 to allow full screen apps -->
+	<meta name="viewport" id="vp" content="initial-scale=1.0,user-scalable=yes,maximum-scale=1" media="(device-height: 568px)" />
+</head>
+
+
+    <body>
+
+        <section role="header">
+
+    <div class="wrapper">
+
+        <div class="masthead">
+            <img src="/assets/img/jra.jpg" />
+            <h1>
+                <a href="/">Jean-Ray Arseneau</a>
+            </h1>
+        </div>
+
+        <div class="description">
+            <p>Husband, IT Manager, Thinker, Tinkerer, Writer<br/>from Ottawa, Ontario, Canada.</p>
+        </div>
+
+        <div class="social">
+            <ul class="social">
+                <li><a href="https://twitter.com/jrarseneau"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                <li><a href="https://ca.linkedin.com/in/jrarseneau"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                <li><a href="https://facebook.com/jrarseneau"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                <li><a href="https://github.com/jrarseneau"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+                <li><a href="mailto:hello@arseneau.ca"><i class="fa fa-envelope-square" aria-hidden="true"></i></a></li>
+                <li><a href="http://arseneau.ca/index.xml"><i class="fa fa-rss-square" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        <div class="mobile" id="mobile-menu-icon">Menu</div>
+
+    </div> <!-- class=wrapper -->
+
+    <div class="header-sections">
+        <div class="wrapper">
+                                <ul class="site-sections">
+                        <li><a href="/about/">About</a></li>
+                        <li><a href="/experience/">Experience</a></li>
+                        <li><a href="/initiatives/">Initiatives</a></li>
+                        <li><a href="/blog/">Blog</a></li>
+                    </ul>
+
+        </div>
+    </div>
+</section> <!-- role=header -->
+
+
+        <section role="content" class="index">
+
+        		<div class="wrapper index">
+                        
+
+                </div>
+        </section>
+
+        <section role="footer">
+
+    <div class="wrapper">
+
+        <div id="copyright">
+
+            <p>
+                Copyright &copy; 2016 Jean-Ray Arseneau.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+</div> <!-- div#site -->
+
+<script>
+$(function() {
+var lineHeight = parseInt($('body').css('line-height'));
+function balanceHeight(el) {
+  var class_of_el = $(el).parent().attr('class') != undefined? $(el).parent().attr('class') : 'empty';
+  var h = $(el).outerHeight();
+  var delta = h % lineHeight;
+  if (delta != 0)
+  {
+    /* For images and objects, we want to align the bottom w/ the baseline, so we
+     * pad the top of the element. For other elements (text elements that have a
+     * scrollbar), we pad the bottom, to keep the text within on the same baseline */
+//         var paddingDirection = ($(el).is('img') || $(el).is('object')) ?
+//                                               'padding-top' : 'padding-bottom';
+
+    if ($(el).is('img') || $(el).is('object') || $(el).is('iframe'))
+    {
+        if (class_of_el.indexOf('format-image') >= 0)
+        {
+            var paddingDirection = 'padding-bottom';
+        }
+        else if (class_of_el == 'video-container')
+        {
+            var paddingDirection = 'margin-bottom';
+        }
+        else
+        {
+            var paddingDirection = 'padding-top';
+        }
+    }
+    else
+    {
+        return paddingDirection = 'padding-bottom';
+    }
+
+    /* Adjust padding, because margin can get collapsed and cause uneven spacing */
+      if (class_of_el.indexOf('video-container') >= 0)
+      {
+        // For videos, we need to add a margin-bottom to the parent in order to
+        // maintain the vertical rhythm. This is due to the fact that videos are
+        // encapsulated in a container which allows them to stretch to 100% width
+        // and auto height. We have to do some weird math to calculate padding
+        // and margin for the element (iframe) and the parent (div) to keep the
+        // vertical rhythm.
+        var currentPadding = parseInt($(el).css(paddingDirection));
+        var currentMargin = parseInt($(el).parent().css('margin-bottom'));
+        $(el).parent().css('margin-bottom', (currentPadding + lineHeight - delta) + currentMargin);
+      }
+      else
+      {
+        var currentPadding = parseInt($(el).css(paddingDirection));
+        $(el).css(paddingDirection, currentPadding + lineHeight - delta);
+      }
+  }
+}
+
+/* Depending on your content, you may want to modify which elements you want to adjust,
+* by modifying the selector used below. By default, we grab all img, pre, and object
+* elements. */
+// $('img').each(function() {
+//   /* Only works if we're manipulating block objects */
+//   if ($(this).css('display') == 'inline')
+//   {
+//       $(this).css('display', 'block');
+//   }
+//
+//   /* Images need to load before you get their height */
+//   if ($(this).is('img'))
+//   {
+//       $(this).load(function(){ balanceHeight(this); });
+//   }
+//   else
+//   {
+//       balanceHeight(this);
+//   }
+// });
+$('iframe').each(function() {
+  /* Only works if we're manipulating block objects */
+  if ($(this).css('display') == 'inline')
+  {
+      $(this).css('display', 'block');
+  }
+
+  /* Images need to load before you get their height */
+  if ($(this).is('iframe'))
+  {
+      $(this).load(function(){ balanceHeight(this); });
+  }
+  else
+  {
+      balanceHeight(this);
+  }
+});
+
+$('pre').each(function() {
+  /* This fixes vertical rhythms for code blocks in <pre>'s */
+    var h = $(this).parent().outerHeight();
+    var delta = h % lineHeight;
+
+    if ( delta != 0 )
+    {
+        var margin = delta / 2;
+        $(this).css('margin-top', margin);
+        $(this).css('margin-bottom', margin);
+    }
+});
+
+
+});
+
+// Code to show / hide site sections on tap for mobile
+$('div#mobile-menu-icon').click(function() {
+$('div#mobile-menu-icon').toggleClass("glow");
+$('div.header-sections').toggle();
+});
+
+if (window.location.hash == '#vr-debug') {
+var mq = window.matchMedia( "(min-width: 569px)" );
+
+if (mq.matches) {
+        // window width is at least 569px
+        $('head').append('<link rel="stylesheet" href="http://basehold.it/42">');
+}
+else {
+        // window width is less than 569px
+        $('head').append('<link rel="stylesheet" href="http://basehold.it/30">');
+
+}
+
+}
+
+
+</script>
+
+
+  </body>
+
+</html>
